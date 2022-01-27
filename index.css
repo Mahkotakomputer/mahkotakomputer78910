@@ -1,0 +1,326 @@
+/* style login */
+
+.warna-bacground {
+	background: linear-gradient(#D1F713  ,#0F84DA );
+}
+.warna-laptop {
+	background: radial-gradient(#D1F713  ,#0F84DA );
+}
+.warna-printer {
+	background: linear-gradient(#D1F713  ,#0F84DA );
+}
+
+.warna-cpu {
+	background: radial-gradient(#D1F713  ,#0F84DA );
+}
+.warna-login {
+	background: radial-gradient(#D1F713  ,#0F84DA );
+}
+*{
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	font-family: montserrat;
+}
+
+nav{
+	height: 80px; 
+	background: orange;
+}
+
+label.namatoko{
+	font-size: 35px;
+	font-weight: bold;
+	color: blue;
+	padding: 0 30px;
+	line-height: 80px;
+	font-family: ALGERIAN;
+}
+nav ul{
+	float: right;
+	margin-right: 40px;
+}
+nav li{
+	display: inline-block;
+	line-height: 80px;
+}
+nav a{
+	color: black;
+	font-size: 15px;
+	text-transform: uppercase;
+	border: 1px solid transparent;
+	padding: 7px 10px;
+	border-radius: 3px;
+}
+nav ul li a:hover{  
+	color: #0b63cd;
+}
+
+.active {
+	background-color: #2FDECB;  
+	color: #fff;  
+	border-radius: 5px;
+	line-height: 20px;
+}
+
+.active-2 {
+	background-color: #0D35D9;  
+	color: #fff;  
+	border-radius: 5px;
+	line-height: 20px;
+}
+.sign {
+	width: 300px;
+	padding: 20px;
+	text-align: center;
+	background-color: #83E70C;
+	position:absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+
+}
+
+.sign h1{
+	margin-top: 100px;
+	font-family: 'Permanent Marker', cursive;
+	color: #fff;
+	font-size: 40px;
+}
+
+.sign input{
+	display: block;
+	width: 100%;
+	padding: 0 16px;
+	height: 44px;
+	text-align: center;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	font-family: "monstserrat",sans-serif;
+}
+
+.txtb{
+	margin: 20px 0;
+	background: rgba(255,255,255,.5);
+	border-radius: 6px;
+}
+
+.signup:hover{
+	transform: scale(0.96);
+}
+
+.sign a{
+	text-decoration: none;
+	color:#fff;
+	font-family: "monstserrat", sans-serif;
+	font-size: 14px;
+	padding: 10px;
+	transition: 0.8s;
+	display: block;
+}
+.sign a:hover{
+	background: rgba(0,0,0,.3);
+}
+
+.Copyright {
+	margin-top: 580px;
+	text-align: center;
+}
+
+
+
+/* Style Home */
+
+.banner {
+	background-image: url("img/namatoko.jpg");
+	height: 500px;
+	background-size: cover;
+	background-position: 0 -180px;
+	margin: 20px;
+}
+
+div.container h3 {
+	text-align: center;
+	color: white;
+	font-family :ARIAL;
+	font-size: 30px;
+	padding: 10px;
+	border: 1px solid;
+	border-radius: 10px;
+	background-color: blue;
+	margin: 20px;
+}
+
+div.container p {
+	word-spacing: 2px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+
+section.About{
+	padding: 0px 150px;
+}
+
+section.vidio {
+	padding: 0px 150px;
+}
+div.wawancara h1{
+	text-align: center;
+	color: white;
+	font-family :ARIAL;
+	font-size: 30px;
+	padding: 10px;
+	border: 1px solid;
+	border-radius: 10px;
+	background-color: blue;
+	margin: 20px;
+
+}
+div.vidio {
+	padding: 0px 15px;
+}
+
+div.paragraf{
+	padding: 0px 150px;
+}
+
+.paragraf {
+	word-spacing: 2px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+
+section.Google-Maps {
+	padding: 0px 150px;
+}
+
+.Google-Maps h1 {
+	text-align: center;
+	color: white;
+	font-family :ARIAL;
+	font-size: 30px;
+	padding: 10px;
+	border: 1px solid;
+	border-radius: 10px;
+	background-color: blue;
+	margin: 20px;
+}
+
+.kotak h3 {
+	font-size: 30px;
+	color: black ;
+	margin: 20px;
+}
+.services {
+	background-color:#0ADE64 ;
+	text-align: center;
+}
+
+
+.box:after {
+	content: " ";
+	display: block;
+	clear: both; 
+}
+
+.box .col-4 {
+	width: 25%;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+}
+
+.icon	{
+	width: 70px;
+	height: 70px;
+	border: 1px solid;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 70px;
+	font-size: 20px;
+	margin: 0px auto;
+}
+.box .col-4 h4 {
+	margin:20px 0px;
+}
+
+div.Copas {
+	text-align: center;
+	font-size: 20px;
+	background-color: #DA0528;
+	color: white;
+	border-radius: 20px;
+}
+
+
+/* style Laptop */
+
+
+.kotak1 h2	{
+	font-size: 30px;
+	font-family: Bell MT;
+	background-color: #0AD9E3;
+	border-radius: 10px;
+	padding: 0px 70px;
+}
+
+.produk h3 {
+	text-align: center;
+	font-size: 30px;
+	background-color: #05D7DA;
+	border-radius: 10px;
+}
+
+article{
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: #D5ECE6;
+	float: left;
+	width: 30%;
+	margin:20px;
+	text-align: center;
+	position: static;
+	z-index: 0;
+	color: black;
+}
+
+article h4 {
+	margin: 20px;
+}
+
+img { 
+	width: 250px;
+	height: 270px;
+	background-image: linear-gradient( rgba(11, 156, 49, 0.6), rgba(11, 156, 49, 0.2)),url(Toko1.jpg);
+}
+
+article a {
+	border:1px solid green;
+	padding: 10px;
+	color: white;
+	background-color: #A4C106;
+	border-radius: 10px;
+}
+
+footer {
+	text-align: center;
+	color: red;
+	font-size: 20px;
+	margin: 10px;
+	
+}
+/* link vidio */
+
+.Google-Maps iframe {
+	width: 1050px;
+	height: 350px;
+}
